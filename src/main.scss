@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  .header {
+    background-color: #FDC228;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-form {
+    text-align: center;
+    margin-top: 10%;
+    padding: 0px 50px 0px 50px;
+    .title {
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 600; 
+      font-size: 14px;
+      color: rgba(74,74,74,1)
+    }    
+    .subtitle {
+      font-family: 'Work Sans', sans-serif;
+      margin-bottom: 3%;
+      font-size: 14px;
+      color: rgba(74,74,74,1)
+    }
+  }
+  .form-input {
+    margin-top: 10%;
+    .input-row {
+      margin-bottom: 10%;
+      .error-message {
+        color: rgba(208,2,27,1);
+        font-size: 13px;
+        text-align: right;
+        margin-top: 1%;
+      }
+      .checkbox-text {      
+        margin-left: 3%;
+        font-size: 14px;
+        .term {
+          color: rgba(74,144,226,1);
+          cursor: pointer;
+          margin-left: 2%;
+        }
+      }      
+    }
+    .icon-ok {
+      font-size: 20px;
+      color: #609B9A;
+    }
+    .user-hints {
+      margin-bottom: 2%;
+      .input-label {
+        padding-left: 5%;
+        color: rgba(74,74,74,1)
+      }
+      .hint {
+        color: #CACACA;
+        text-align: right;
+      }
+    }
+  }
+  .btn-init {
+    margin-top: 10%;
+    width: 100%;
+    height: 45px;  
+    border: none;
+    border-radius: 0%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #CACACA;
+  }
+  .btn-enabled {
+    margin-top: 10%;
+    width: 100%;
+    height: 45px;  
+    border: none;
+    border-radius: 0%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #FDC228 !important;
+  }
+
+  .modal-title {
+    font-size: 16px;
+    color: #FDC228;
+  }
+  .modal-footer {
+    text-align: center;
+  }
+
+  .btn-modal {
+    border: 1px solid #FDC228;    
+    background-color: #FDC228;
+    color: white;
+    height: 50px;
+    width: 95%;
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+}
+
+// close modal
+body > div:nth-child(4) > div.fade.in.modal > div > div > div.modal-header > button > span:nth-child(1) {
+  color: #FDC228;
+}
+
+/* input style */
+#root > div > div > div.container > form > div:nth-child(1) > div:nth-child(2) > div > div > span > input,
+#root > div > div > div.container > form > div:nth-child(2) > div:nth-child(2) > div > div > span > input {
+  background-color: rgb(244, 244, 244);
+  border-radius: 0%;
+  border: none;
+  height: 41px;  
+}
+
+#root > div > div > div.container > form > div:nth-child(1) > div:nth-child(2) > div > div.form-group > span,
+#root > div > div > div.container > form > div:nth-child(2) > div:nth-child(2) > div > div > span {
+  width: 100%;
+}
+
+#root > div > div > div.container > form > div:nth-child(1) > div:nth-child(2) > div > div > span > input:focus,
+#root > div > div > div.container > form > div:nth-child(2) > div:nth-child(2) > div > div > span > input:focus {  
+  border: 2px solid #979797;
+}
+
+
+#root > div > div > div.container > form > div:nth-child(1) > div:nth-child(2) > div > div > span > span,
+#root > div > div > div.container > form > div:nth-child(2) > div:nth-child(2) > div > div > span > span {
+  height: 40px;
+  border: none;
+  border-radius: 0%;
+  background-color: #f4f4f4;
+}
